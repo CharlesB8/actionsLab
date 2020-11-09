@@ -25,4 +25,14 @@ public class TestSomeMath {
     public void testSubtraction(){
         assertEquals(x - y, 7);
     }
+
+    @Test
+    public void testMultiplication(){
+        assertEquals(x * y, 30);
+    }
+
+    @Test
+    public void testDivision(){
+        assertEquals(x / y, 3);
+    }
 }
