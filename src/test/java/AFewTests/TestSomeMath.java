@@ -20,4 +20,9 @@ public class TestSomeMath {
     public void testAddition(){
         assertEquals(x + y, 13);
     }
+
+    @Test
+    public void testSubtraction(){
+        assertEquals(x - y, 7);
+    }
 }
